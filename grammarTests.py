@@ -1,3 +1,11 @@
+"""
+Author: Grezia Trujillo
+Date: 28 April 2026
+Project: Context free grammar automated tests.
+Purpose of the project: Validate generated CFG with multiple tests of strings that will either work or not work to 
+demonstrate the structure of the grammar.
+"""
+
 import nltk
 from nltk import CFG
 
