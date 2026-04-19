@@ -1,3 +1,11 @@
+"""
+Author: Grezia Trujillo
+Date: 28 April 2026
+Project: Context free grammar final model
+Purpose of the project: Represent final model of generated CFG with an
+example input of a string.
+"""
+
 import nltk
 from nltk import CFG
 
