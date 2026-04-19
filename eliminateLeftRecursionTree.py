@@ -1,10 +1,13 @@
+"""
+Author: Grezia Trujillo
+Date: 28 April 2026
+Project: Context free grammar final model
+Purpose of the project: Represent final model of generated CFG with an
+example input of a string.
+"""
+
 import nltk
 from nltk import CFG
-
-#the following two lines are to be uncommented and run ONCE for first time download of nltk
-# nltk.download('punkt')
-# nltk.download('averaged_perceptron_tagger')
-
 
 #final CFG
 italian_grammar = CFG.fromstring("""
