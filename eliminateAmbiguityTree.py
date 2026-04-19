@@ -1,10 +1,13 @@
+"""
+Author: Grezia Trujillo
+Date: 28 April 2026
+Project: Context free grammar unambiguous model
+Purpose of the project: Represent unambiguous model of generated grammar that no longer
+generates two trees with a string input, but continues to demonstrate left-side recursion.
+"""
+
 import nltk
 from nltk import CFG
-
-#the following two lines are to be uncommented and run ONCE for first time download of nltk
-# nltk.download('punkt')
-# nltk.download('averaged_perceptron_tagger')
-
 
 #unambiguous CFG
 italian_grammar = CFG.fromstring("""
