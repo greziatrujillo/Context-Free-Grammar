@@ -1,9 +1,9 @@
 """
 Author: Grezia Trujillo
 Date: 28 April 2026
-Project: Context free grammar final model
-Purpose of the project: Represent final model of generated CFG with an
-example input of a string.
+Project: Context free grammar original model
+Purpose of the project: Represent original model of generated grammar that still
+has ambiguity and left-side recursion to set the foundation for further simplification.
 """
 
 import nltk
